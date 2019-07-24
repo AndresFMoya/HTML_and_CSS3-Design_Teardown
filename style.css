@@ -1,0 +1,52 @@
+header {
+    height: 160px;
+    background: #d33a2c;
+    min-height: 6.2375rem;
+}
+
+.mainarticles {
+    display:flex;
+    flex-wrap: wrap;
+    height: 1200px;
+    background-image:linear-gradient(to right ,antiquewhite 50%, white 50%);
+}
+
+.mainarticles div{
+    width: 49.8%;
+    height:49.8%;
+    border:1px solid blue;
+}
+.articles{
+    display:flex;
+    height:500px;
+    background-color: darkgray;
+}
+
+.articles article {
+    width: 33.3%;
+    border:1px solid blue;
+
+}
+
+.publicity {
+    margin-top:5px;
+    display:flex;
+    justify-content: space-around;
+    height: 600px;
+    background-color: aliceblue;
+
+}
+
+.publicity :nth-of-type(1) {
+    width: 30%;
+    height:40%;
+    background-color: lightskyblue;
+
+}
+
+.publicity :nth-of-type(2) {
+    width: 65%;
+    height:95%;
+    background-color:firebrick;
+
+}
