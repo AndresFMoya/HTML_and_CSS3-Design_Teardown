@@ -50,3 +50,46 @@ header {
     background-color:firebrick;
 
 }
+
+.seemorearticles {
+    display: flex;
+    height: 300px;
+    background-color: lightblue;
+}
+
+.comingup {
+    display: flex;
+    height: 1000px;
+    background-color: green;
+}
+
+.personofweek {
+    display: flex;
+    height: 500px;
+    background-color: bisque;
+}
+
+.articles2 {
+    display:flex;
+    flex-wrap: wrap;
+    height: 800px;
+    background-image:linear-gradient(to right ,antiquewhite 50%, white 50%);
+}
+
+.articles2 div{
+    width: 49.8%;
+    height:33.3%;
+    border:1px solid blue;
+}
+
+.featuresmashingbook {
+    display: flex;
+    background-color:lightcoral;
+    height: 500px;
+}
+
+.browse {
+    display:flex;
+    background-color: lightgreen;
+    height: 800px;
+}
