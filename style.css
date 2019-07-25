@@ -160,8 +160,19 @@ p {
 }
 
 .articles2 article {
+  display: flex;
+  flex-direction: row;
   width: 49%;
   height: 33.3%;
+  border: 2px solid white;
+}
+
+.articles2 .image {
+  display: flex;
+  height: 50px;
+  width: 100px;
+  margin-right: 5px;
+  background-color: #d3d3d3;
   border: 2px solid white;
 }
 
