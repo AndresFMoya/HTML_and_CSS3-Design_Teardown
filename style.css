@@ -16,32 +16,8 @@ header ul {
   font-size: 25px;
 }
 
-.mainarticles {
-  display: flex;
-  flex-wrap: wrap;
-  height: 1200px;
-}
-
-.mainarticles div {
-  display: flex;
-  align-items: center;
-  background-color: #f0f0f0;
-  color: #787878;
-  font-size: 22px;
-  width: 49%;
-  height: 49%;
-  border: 3px solid white;
-}
-
-.mainarticles h1 {
-  width: 70%;
-  margin: auto;
-}
-
-.articles {
-  display: flex;
-  height: 500px;
-  background-color: darkgray;
+nav {
+  width: 100%;
 }
 
 article {
@@ -54,6 +30,43 @@ article {
   align-items: center;
   color: #787878;
   font-size: 16px;
+}
+
+.mainarticles {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1200px;
+}
+
+.mainarticles article {
+  display: flex;
+  align-items: center;
+  background-color: #c0c0c0;
+  color: #787878;
+  font-size: 22px;
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  background-color: #d3d3d3;
+  position: relative;
+  top: 170px;
+  right: 220px;
+}
+
+.mainarticles h1 {
+  width: 70%;
+  margin: auto;
+}
+
+.articles {
+  display: flex;
+  height: 500px;
+  background-color: darkgray;
 }
 
 .articles h1,
@@ -156,6 +169,8 @@ p {
 .textwrap {
   font-size: 25px;
   width: 60%;
+  background-color: #303030;
+  border: none;
 }
 
 .browse {
@@ -171,6 +186,7 @@ p {
   width: 50%;
   justify-content: space-around;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .browse a {
