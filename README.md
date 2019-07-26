@@ -6,4 +6,4 @@ This project consists of building a heatmap of the Smashing magazine website.
 Carlos Andres Rodriguez https://github.com/andynarf Andres Felipe Moya https://github.com/AndresFMoya
 # The Website
 
-Follow this link to access the website:
+Follow this link to access the website:https://andynarf.github.io/design_teardown/. 
